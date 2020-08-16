@@ -1,65 +1,633 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.17.2/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.17.2/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.17.2/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.17.2/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.17.2/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+<body>
+  <div class="h1">Improving Agriculture Improving Lives</div>
+  <section class="categories">
+    <div class="category-item" style="background-image: url('farmer-880567_1280.jpg');">
+
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <div class="category-item" style="background-image: url('woman-801697_1280.jpg');">
+    </div>
+    <div class="category-item" style="background-image: url('watering-1501209_1280.jpg');">
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    </div>
+    <div class="category-item" style="
+            background-image: url('field-5207335_1280.jpg');
+        ">
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
+    </div>
+  </section>
+
+  </section>
+  <h2 class="featured-products-title">
+    <u>Products</u>
+  </h2>
+  <h2 class="page">
+    CHANA
+  </h2>
+  <section class="featured-products">
+    <div class="featured-product-item">
+      <div style="background-image: url('chana-166987_1920\ \(1\).jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        chana
+      </p>
+     
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('chickpea-390706_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        Chickpea
+      </p>
+      
+     
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('pulses-4760714_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        pulses-4760714_1920
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('pulses-4833967_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        udad
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('small-yellow-lentils-moong-dal.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        Moong dal
+      </p>
+      
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('toor-dal-500x500.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        toor dal
+      </p>
+     
+      <button>
+        login
+      </button>
+    </div>
+    
+  </section>
+
+<!-- wheat -->
+
+  </section>
+  
+  <h2 class="page">
+    Wheat
+  </h2>
+  <section class="featured-products">
+    <div class="featured-product-item">
+      <div style="background-image: url('black-wheat.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        Black-Wheat 
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('agriculture-2229_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        wheat
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('seeds-3713535_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+      Wheat seeds-3713535_1920
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('unnamed.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        wheat-381848_1921
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('wheat-381848_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        White-wheat
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('23-10.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        wheat
+      </p>
+    
+      <button>
+        login
+      </button>
+    </div>
+    
+  </section>
+
+
+  <!-- rajma -->
+  </section>
+  
+  <h2 class="page">
+    Rajma
+  </h2>
+  <section class="featured-products">
+    <div class="featured-product-item">
+      <div style="background-image: url('24720077-rajma-dal-kind-of-indian-edible-pulses.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        rajma dal
+      </p>
+    
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('beans_620x350_81524733557.webp');" class="featured-product-item-image"></div>
+      <p class="title">
+        rajma beans_620x350_81524733557
+      </p>
+    
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('natural-fresh-rajma-chitra-911.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+      rajma-chitra
+      </p>
+    
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('pulses-4760699_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        black rajma
+      </p>
+    
+      </p>
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('red-kidney-beans-background-texture-260nw-1421937875.webp');" class="featured-product-item-image"></div>
+      <p class="title">
+        Red kidney beans
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('rajma-beans-500x500.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        wheat
+      </p>
+     
+      <button>
+        login
+      </button>
+    </div>
+    
+  </section>
+
+
+  <!-- Maize -->
+
+  </section>
+  
+  <h2 class="page">
+    Maize
+  </h2>
+  <section class="featured-products">
+    <div class="featured-product-item">
+      <div style="background-image: url('corn-2655525_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        maize/corn
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('Maize_large.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        Maize_large
+      </p>
+      
+            <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('maize-day-scaled.webp');" class="featured-product-item-image"></div>
+      <p class="title">
+      maize-day-scaled
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('fields-837672_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        maize fields
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('corn-on-the-cob-4507230_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        corns
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('corn-2875303_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        corn-2655525_1920
+      </p>
+     
+      
+      <button>
+        login
+      </button>
+    </div>
+    
+  </section>
+
+  <!-- millets -->
+
+
+  </section>
+  
+  <h2 class="page">
+    Millets
+  </h2>
+  <section class="featured-products">
+    <div class="featured-product-item">
+      <div style="background-image: url('grains-3601581_1280.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        millets grains
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('millet-1697117_1280.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        millet-1697117_1280
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('millet-3636924_1280.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+      millet-3636924_1280
+      </p>
+    
+      <button>
+        login
+      </button>
+    </div>
+    
+    
+  </section>
+<!-- Soyabean -->
+
+  </section>
+  
+  <h2 class="page">
+    Soyabean
+  </h2>
+  <section class="featured-products">
+    <div class="featured-product-item">
+      <div style="background-image: url('bean-3973842_640.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        beans
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('soybeans-182294_640.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        soybeans-182294_640
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('download\ \(1\).jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+      Healthy beans
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+   
+  </section>
+
+
+<!-- Sorghum -->
+
+  </section>
+  
+  <h2 class="page">
+    Sorghum
+  </h2>
+  <section class="featured-products">
+    <div class="featured-product-item">
+      <div style="background-image: url('sorghum-275257_1280.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        Sorghums
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('sorghum-275258_640.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        sorghum-275257_1280
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('sorghum-696915_1280.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+      sorghum-275258_640
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+   
+  </section>
+
+
+<!-- Rice -->
+
+  </section>
+  
+  <h2 class="page">
+    Rice
+  </h2>
+  <section class="featured-products">
+    <div class="featured-product-item">
+      <div style="background-image: url('images.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        rice/Chawal
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('rice-191932_1920.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        rice-191932_1920
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('rice-1897588_640.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+      rice-1897588_640
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+   
+  </section>
+
+
+  <!-- Oats -->
+
+
+  </section>
+  
+  <h2 class="page">
+  Oats
+  </h2>
+  <section class="featured-products">
+    <div class="featured-product-item">
+      <div style="background-image: url('oats-3717095_1280.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        oats-3717095_1280
+      </p>
+      
+     
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('pexels-nastyasensei-2290074.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+        Oats-nastyasensei
+      </p>
+    
+      <button>
+        login
+      </button>
+    </div>
+    <div class="featured-product-item">
+      <div style="background-image: url('pexels-polina-tankilevitch-3872382.jpg');" class="featured-product-item-image"></div>
+      <p class="title">
+      Oats-polina
+      </p>
+      
+      <button>
+        login
+      </button>
+    </div>
+   
+  </section>
+
+  <!-- Insecticides pesticides Fertilizers -->
+</section>
+
+<h2 class="page">
+  Insecticides pesticides Fertilizers
+</h2>
+<section class="featured-products">
+  <div class="featured-product-item">
+    <div style="background-image: url('Phosphate\ fertilizer.jpg');" class="featured-product-item-image"></div>
+    <p class="title">
+      Phosphate Fertilizers
+    </p>
+    
+    <button>
+      login
+    </button>
+  </div>
+  <div class="featured-product-item">
+    <div style="background-image: url('veggie-fertilizer.jpg');" class="featured-product-item-image"></div>
+    <p class="title">
+      veggie-fertilizer
+    </p>
+    
+    <button>
+      login
+    </button>
+  </div>
+  <div class="featured-product-item">
+    <div style="background-image: url('images.jpg');" class="featured-product-item-image"></div>
+    <p class="title">
+      Potash fertilizers
+    </p>
+  
+    <button>
+      login
+    </button>
+  </div>
+  <div class="featured-product-item">
+    <div style="background-image: url('images.jpg');" class="featured-product-item-image"></div>
+    <p class="title">
+      pesticides
+    </p>
+    
+    <button>
+      login
+    </button>
+  </div>
+  <div class="featured-product-item">
+    <div style="background-image: url('images\ \(5\).jpg');" class="featured-product-item-image"></div>
+    <p class="title">
+      Killing Pests
+    </p>
+    
+    <button>
+      login
+    </button>
+  </div>
+  <div class="featured-product-item">
+    <div style="background-image: url('images\ \(6\).jpg');" class="featured-product-item-image"></div>
+    <p class="title">
+      Protects the crops
+    </p>
+   
+    <button>
+      login
+    </button>
+  </div>
+  <div class="featured-product-item">
+    <div style="background-image: url('images.jpg');" class="featured-product-item-image"></div>
+    <p class="title">
+     Confidor-Insecticides
+    </p>
+    
+    <button>
+      login
+    </button>
+  </div>
+  <div class="featured-product-item">
+    <div style="background-image: url('images\ \(1\).jpg');" class="featured-product-item-image"></div>
+    <p class="title">
+      A-116
+    </p>
+    
+    <button>
+      login
+    </button>
+  </div>
+  <div class="featured-product-item">
+    <div style="background-image: url('images\ \(2\).jpg');" class="featured-product-item-image"></div>
+    <p class="title">
+      Pydon
+    </p>
+    
+    <button>
+      login
+    </button>
+  </div>
+  
+ 
+  </section>
+
+  
+</body>
+
 </html>
