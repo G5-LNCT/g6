@@ -2,6 +2,7 @@
 <head>
 <title>Contact Us</title>
 <meta charset="utf-8">
+
 <style>
  #header{
         background-image:url(image.jpg);
@@ -51,13 +52,15 @@
 </style>
 </head>
 <body>
+	<script src="javascript.js"> </script>
+		
 	<div id="header">
 	 <ul style="display"; inline;>	
  <li><a class="active" href="Contact.html">Help Desk</a></li>	
- <li><a href="C:\Users\Kajol Hada\Documents\Hackathon\final\aboutusfinal.html">About Us</a></li>
- <li><a href="#Buyer">Buyer</a></li>
- <li><a href="#Seller">Seller</a></li>
- <li><a href="C:\Users\Kajol Hada\Documents\Hackathon\final\Header.html">Home</a></li>
+ <li><a href="aboutusfinal.html">About Us</a></li>
+ <li><a href="buyer1.html">Buyer</a></li>
+ <li><a href="selller.html">Seller</a></li>
+ <li><a href="index.html">Home</a></li>
 	  </ul> 
 </div>
 <h1><center>______</center></h1>
@@ -78,39 +81,40 @@ If you have a question or want to contact us, mail us at ______ or fill out the 
 <br>
 <strong>
        <label>First Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="text" height="40" name="fname" maxlength="30" placeholder="Ex. John" tabindex="1" required></input>
+       <input type="text" height="40" name="fname" maxlength="30" placeholder="Ex. John" tabindex="1" id="namefield" required></input>
 <br>
 <br>
        <label>Last Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="text" name="lname" maxlength="30" placeholder="Ex. Smith" tabindex="2" required ></input>
+       <input type="text" name="lname" maxlength="30" placeholder="Ex. Smith" tabindex="2" required id="lnamefield" ></input>
 <br>
 <br>
        <label>Mobile Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="text" name="mname" minlength="10" maxlength="10" placeholder="91XXXXXXXX" tabindex="4" required></input>
+       <input type="text" name="mname" minlength="10" maxlength="10" placeholder="91XXXXXXXX" tabindex="4" required id="numberfield"></input>
 <br>
 <br>
        <label>E-Mail</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-       <input type="text" name="ename" maxlength="100" placeholder="xxxxxxxxx@gmail.com" tabindex="3" required></input>
+       <input type="text" name="ename" maxlength="100" placeholder="xxxxxxxxx@gmail.com" tabindex="3" required id="emailfield"></input>
 <br>
 <br>
        <label>Type Of User</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <input type="radio" name="br" value="buyer" required>Buyer
+          <input type="radio" name="br" value="buyer" required id="buyerfield">Buyer
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <input type="radio" name="br" value="seller" required>Seller  
+          <input type="radio" name="br" value="seller" required id="sellerfield">Seller  
 <br>
 <br>
        <label>Comments</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <textarea name="comments" cole="45" row="5" placeholder="Write Your Text Here"></textarea>
+           <textarea name="comments" cole="45" row="5" placeholder="Write Your Text Here" id commentsfields></textarea>
 <br>
 <br>
 <br>
 <br>
 <br>
        <label></label>
-        <input type="submit" name="sub" value="Submit">
+        <input type="submit" name="sub" value="Submit" onclick="writedata()">
 	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <input type="reset" name="res" value="Reset">
+        <input type="reset" name="res" value="Reset" onclick="writedata()">
 </strong>
 </form>
+<script src="javascript.js"> </script>
 </body>
 </html>

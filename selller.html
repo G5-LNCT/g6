@@ -1,0 +1,182 @@
+<html>
+
+<head>
+       <title>Contact Us</title>
+       <meta charset="utf-8">
+       
+       <style>
+              #header {
+                     background-image: url(image.jpg);
+                     font-family: sans-serif;
+                     height: 70px;
+              }
+
+              ul {
+                     list-style-type: none;
+                     margin: 0;
+                     padding: 0;
+                     background-color: white;
+              }
+
+              li {
+                     float: right;
+              }
+
+              li a {
+                     display: block;
+                     color: white;
+                     text-align: center;
+                     padding: 15px 16px;
+                     text-decoration: none;
+              }
+
+              li a:hover {
+                     background-color: #808080;
+              }
+
+              .active {
+                     background-color: #0099ff;
+              }
+
+              a {
+                     color: white;
+                     text-decoration: none;
+              }
+
+              form {
+                     background-image: url(7712365.jpg);
+                     width: 100%;
+                     height: 900px;
+                     padding: 30px 0px 0px 0px;
+                     background-repeat: no-repeat;
+                     background-size: 130%;
+                     text-align: center;
+              }
+
+              button {
+                     background-color: #67eb0f;
+                     width: 10%;
+                     height: 5%;
+                     font-size: medium;
+
+
+              }
+
+              button:hover {
+                     background-color: cadetblue;
+              }
+              .background{
+		background-image:url(223344.jpg);
+		width:100%;
+		height:100%;
+		padding:30px 20px 30px 20px;
+		background-size:100%;
+		background-repeat:no-repeat;
+	}
+       </style>
+</head>
+
+<body>
+       <link href="javascript.js" rel="javascript">
+       <div id="header">
+              <ul style="display :inline" ;>
+                     <li><a href="Contact.html">Help Desk</a></li>
+                     <li><a href="aboutusfinal.html">About Us</a></li>
+                     <li><a href="buyer1.html">Buyer</a></li>
+                     <li><a class="active" href="selller.html">Seller</a></li>
+                     <li><a href="index.html">Home</a></li>
+              </ul>
+       </div>
+       >
+       <form>
+              <h1>
+                     <center><b>Sign up</b></center>
+              </h1>
+              <br>
+              <br>
+              <br>
+              <strong>
+                     <label>First
+                            Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input type="text" height="40" name="fname" maxlength="30" placeholder="Ex. John" required id="namefield"></input>
+                     <br>
+                     <br>
+                     <label>Last
+                            Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input type="text" name="lname" maxlength="30" placeholder="Ex. Smith" tabindex="2" id="lnamefield"
+                            required></input>
+                     <br>
+                     <br>
+                     <label>Mobile Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input type="text" name="mname" minlength="10" maxlength="10" placeholder="91XXXXXXXX" tabindex="4" id="numberfield"
+                            required></input>
+                     <br>
+                     <br>
+                     <label>E-Mail</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input type="text" name="ename" maxlength="100" placeholder="xxxxxxxxx@gmail.com" tabindex="3" id="email.field"
+                            required></input>
+                     <br>
+                     <br>
+                     <label>Type Of
+                            User</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input type="radio" name="br" value="buyer" required id="buyerfield">Buyer
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input type="radio" name="br" value="seller" required id="sellerfield">Seller
+                     <br>
+                     <br>
+                     <label>set-password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                     <input type="password" name="br "  minlength="8"maxlength="8" placeholder="*********" tabindex="5" id="passfield"
+                            required></input>
+
+                     <br>
+                     <br>
+                     <label>Re-enter</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input type="password" name="br " minlength="8" maxlength="8" placeholder="*********" tabindex="5" id="passfield1"
+                            required></input>
+
+                     <br>
+                   
+                     <br>
+                     <br>
+
+                     <label></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                     <button type="submit" name="sub" value="Submit" ><a href="login.html" onclick="writedata()">Register</button></a>
+                     
+              </strong>
+              <strong>
+                     
+                     <h1>
+                            <center>
+                                   or
+                            </center>
+                     </h1>
+                     <div>
+
+                     <h1>Sign in</h1>
+                     <label>Email/Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                     <input type="text" name="ename" maxlength="100" placeholder="xx@gmail.com/+91" tabindex="1" id="namefield"
+                            required></input>
+                     <br>
+                     <br>
+
+                     <label>password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                     <input type="password" name="br " maxlength="8" placeholder="*********" tabindex="2" id="passwordfield"
+                            aria-required="true"></input>
+                     <br>
+                     <br>
+                     <label> </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                      <button type="submit" name="sub" value="Submit" ><a href="login.html" onclick="writedata()">login</button></a>
+
+</div>
+
+
+              </strong>
+       </form>
+       <script src="javascript.js"> </script>
+</body>
+
+</html>
