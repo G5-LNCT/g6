@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <title>Document</title>
+</head>
+<style>
+       #header {
+              background-image: url(image.jpg);
+              font-family: sans-serif;
+              height: 80px;
+       }
+
+       ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              background-color: white;
+       }
+
+       li {
+              float: right;
+       }
+
+       li a {
+              display: block;
+              color: white;
+              text-align: center;
+              padding: 15px 16px;
+              text-decoration: none;
+       }
+
+       li a:hover {
+              background-color: #808080;
+       }
+
+       .active {
+              background-color: #0099ff;
+       }
+
+       a {
+              color: white;
+              text-decoration: none;
+       }
+
+       form {
+              background-image: url(back.jpg);
+              width: 100%;
+              height: 100%;
+              padding: 30px 0px 0px 0px;
+              background-repeat: no-repeat;
+              background-size: 100%;
+              text-align: center;
+              font-size: medium;
+
+       }
+
+       button {
+              background-color: #67eb0f;
+              width: 10%;
+              height: 5%;
+              font-size: medium;
+
+
+       }
+
+       button:hover {
+              background-color: cadetblue;
+       }
+
+       .welcome {
+
+              padding: 20px 0px 0px 0px;
+              height: 700px;
+              margin: 10px;
+              font-size: medium;
+
+       }
+
+       label {
+              font-size: 20px;
+              font-style: normal;
+              text-align: center;
+              color: white;
+       }
+</style>
+
+<body>
+       
+       <div id="header">
+              <ul style="display :inline" ;>
+                     <li><a href="Contact.html">Help Desk</a></li>
+                     <li><a href="aboutusfinal.html">About Us</a></li>
+                     <li><a href="buyer1.html">Buyer</a></li>
+                     <li><a class="active" href="selller.html">Seller</a></li>
+                     <li><a href="index.html">Home</a></li>
+              </ul>
+       </div>
+
+
+       <div class="welcome">
+              <form>
+
+
+                     <h3>
+                            <center>
+                                   ________________________________________________________________________________________________
+                            </center>
+                     </h3>
+                     <h1>
+                            <center>Welcome </center>
+                     </h1>
+                     <h3>
+                            <center>
+                                   ________________________________________________________________________________________________
+                            </center>
+                     </h3>
+
+                     <body>
+                            <h1>
+                                   <center>Easy to Start your bussiness</center>
+                            </h1>
+
+                            <body>
+                                   <h1>enter details</h1>
+
+                                   <br>
+                                   <br>
+                                   <br>
+                                   <label>
+
+
+                                          crop name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   <input type="text" placeholder="product name" name="br" maxlength="100" required id="cropfield">
+                                   </input>
+
+                                   <br>
+                                   <br>
+                                   <br>
+                                   <label>
+                                          quantity</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   <input type="number" placeholder=" quantity" name="br" maxlength="100" required id="quantityfield">
+                                   </input>
+
+                                   <br>
+                                   <br>
+                                   <br>
+
+                                   <label>date</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   <input type="datetime-local" placeholder="     date" name="br" maxlength="100" id="datefield"
+                                          required> &nbsp;&nbsp;</input>
+
+                                   <br>
+                                   <br>
+                                   <br>
+
+                                   <label>&nbsp;
+                                          image</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   <input type="   file" placeholder="    product" name="br" maxlength="100" required id="image">
+                                   </input>
+                                   <br>
+                                   <br>
+                                   <br>
+
+                                   <label>&nbsp;
+                                          price</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   <input type="number" placeholder="price" name="br" maxlength="100" required id="price"> </input>
+                                   <br>
+                                   <br>
+                                   <br>
+
+                                   <label>&nbsp;
+                                   </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                   <input type="submit" name="br" maxlength="100" required onclick="writedata()"> </input>
+              </form>
+       </div>
+
+       <script src="javascript.js"> </script>
+
+</body>
+
+</html>

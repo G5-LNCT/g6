@@ -1,0 +1,128 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Header</title>
+<style>
+   #header{
+        background-image:url(image.jpg);
+        font-family:sans-serif;
+ 	height:70px;
+	}
+    ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:white;
+	}
+    li{
+	float:right;
+	}
+    li a{
+        display:block;
+	color:white;
+	text-align:center;
+	padding:15px 16px;
+	text-decoration:none;
+	}
+     li a:hover{
+       	background-color:#808080;
+	}
+    .active{
+	background-color:#0099ff;
+	}
+	#contentwrapper{
+	float:left;
+	width:100%;
+	}
+	#contentcolumn{
+	margin:0 230px 0 230px;
+	}
+	#leftcolumn{
+		float:left;
+		width:230px;
+		margin-left:-100%;
+		background-image:url(1.jpg);
+		background-size:500%;
+		background-repeat:no-repeat;
+		height:100%;
+	}
+	#rightcolumn{
+		float:left;
+		width:230px;
+		margin-left:-230px;
+		background-image:url(1.jpg);
+		background-size:500%;
+		background-repeat:no-repeat;
+		height:100%;
+	}
+	.innertext{
+		margin:20px;
+		font-family:arial;
+	}
+	@media (max-width:840px){
+	
+	#leftcolumn{
+		margin-left:-100%;
+	}
+	#rightcolumn{
+		float:none;
+		width:100%;
+		margin-left:0;
+		clear:both;
+	}
+	#contentcolumn{
+	margin-right:0;
+	}
+}
+	@media (max-width:600px){
+	
+	#leftcolumn{
+		float:none;
+		width:100%;
+		margin-left:0;
+		clear:both;
+	}
+	#contentcolumn{
+	margin-left:0;
+	}
+}
+</style>
+</head>
+<body>
+	<div id="header">
+	 <ul style="display"; inline;>	
+ <li><a href="Contact.html">Help Desk</a></li>	
+ <li><a href="C:\Users\Kajol Hada\Documents\Hackathon\final\aboutusfinal.html">About Us</a></li>
+ <li><a href="#Buyer">Buyer</a></li>
+ <li><a href="#Seller">Seller</a></li>
+ <li><a class="active" href="#home">Home</a></li>
+	  </ul>
+	</div>
+	<div id="container">
+	<div id="contentwrapper">
+		<div id="contentcolumn">
+		<div class="innertext">
+<br><br>
+			<center><h1>WELCOME TO ONLINEMANDI.COM</h1></center>
+			<img src="C:\Users\Kajol Hada\Documents\Hackathon\final/mainimg.jpg" width="100%" height="450">
+		</div>
+		</div>
+		</div>
+		<div id="leftcolumn">
+		<div class="innertext">
+			<center><h2>TOPICS</h2></center>
+		<ul style="display"; inline;>	
+ <li><a href="C:\Users\Kajol Hada\Documents\Hackathon\final\crrop.html">CROPS</a></li>	
+ <li><a href="C:\Users\Kajol Hada\Documents\Hackathon\final\ferti.html">FERTILIZERS</a></li>
+	  </ul>
+		</div>
+		</div>
+		<div id="rightcolumn">
+		<div class="innertext">
+			<center><h2>NEWS</h2></center>
+		<font color="white"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br><br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p></font>
+		</div>
+		</div>
+</div>
+</body>
+</html>
